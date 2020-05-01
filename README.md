@@ -63,7 +63,7 @@ The command line is:
 
 ### Script
 
-These commands are available in form of a script. When generated through the script, the public/private keypar is stored under `~/.myKeys`.
+These commands are available in form of a script. When generated through the script, the public/private keypair is stored under `~/.myKeys`.
 
 When using the `encrypt-cert` or `decrypt-cert` scripts, the keys stored in the afore mentioned directory are used. If you'd like to specify them manually, don't use the script...
 
