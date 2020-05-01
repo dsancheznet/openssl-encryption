@@ -1,0 +1,3 @@
+#!/bin/sh
+
+openssl smime -encrypt -binary -aes-256-cbc -in $1 -out $1.enc -outform DER ~/.myKeys/public-key.pem

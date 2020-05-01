@@ -1,0 +1,3 @@
+#!/bin/sh
+
+openssl smime -decrypt -in $1 -binary -inform DEM -inkey ~/.myKeys/private-key.pem -out ${1/.enc/}
